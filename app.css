@@ -13,13 +13,23 @@ html, body {
 }
 
 #main {
+    display: flex;
     height: 100%;
 }
 
 .sidebar {
-
+    flex: 1;
+    background-color: blue;
+    padding-top: 1em;
 }
 
 .content {
+    flex: 3;
+    background-color: indianred;
+    padding-top: 1em;
+}
 
+.container {
+    padding: 0 .15em
+;
 }
